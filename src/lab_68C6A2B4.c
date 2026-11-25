@@ -65,7 +65,7 @@ int main()
     index_of_highest_salary = highestSalary(employees);
     printEmployee(employees[index_of_highest_salary]);
     printf("\nThe average salary = %.2f", averageSalary(employees));
-    printf("\nThe size of the employees array = %d\n", sizeof(employees));
+    printf("\nThe size of the employees array = %zu\n", sizeof(employees));
     return 0;
 }
 #endif
